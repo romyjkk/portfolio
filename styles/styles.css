@@ -404,12 +404,19 @@ footer section ul:nth-of-type(3) li p {
 
 /* introduction text */
 
+#dressup main section:first-of-type ul:nth-of-type(2) {
+  display: flex;
+  justify-content: center;
+}
+
 #dressup main section:first-of-type ul:nth-of-type(2) li p {
   font-size: 1.4rem;
 
-  margin: 2rem 4rem 4rem 4rem;
+  margin: 2rem 5rem 4rem 5rem;
+  max-width: 80rem;
 
   text-align: center;
+
 }
 
 /* pictures */
@@ -438,6 +445,12 @@ footer section ul:nth-of-type(3) li p {
 
 
 /* media queries */
+
+@media (max-width: 38em) {
+  #dressup main section:first-of-type ul:first-of-type li h1 {
+    margin: 6rem 0 0rem 0;
+  }
+}
 
 @media (max-width: 64em) {
   #dressup main section:first-of-type ul:nth-of-type(3) {
